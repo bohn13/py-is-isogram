@@ -11,6 +11,9 @@ from app.main import is_isogram
         ("look", False),
         ("world", True),
         ("playground", True),
+        ("Adam", False),
+        ("alphabet", False),
+        ("playgrounds", True),
     ]
 )
 def test_is_isogram(word: str, expected: bool) -> None:
